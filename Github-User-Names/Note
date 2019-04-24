@@ -1,0 +1,8 @@
+This file is too big to download from google Big Query
+Please try your own way to download it
+
+how to download
+Example:  https://app.hyfy.io/v/abRJ75Xizno/
+Dateset: bigquery-public-data.github_repos.commits
+
+Query: SELECT author.name as author_name, author.email as author_email, committer.name as committer_name, committer.email as committer_email, repo_name FROM bigquery-public-data.github_repos.commits
