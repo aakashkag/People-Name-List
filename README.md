@@ -6,6 +6,11 @@
 1) Google Big Query Open Dataset [https://cloud.google.com/bigquery/public-data/](https://cloud.google.com/bigquery/public-data/)
 2) Crawled some website which provide users dataset
 
+3) There are billions of people name we can get from common crawl. Those names are accurate becuase it's extratced from RDF.
+http://webdatacommons.org/structureddata/2019-12/stats/schema_org_subsets.html
+http://data.dws.informatik.uni-mannheim.de/structureddata/2019-12/quads/classspecific/md/schema_Person.gz
+
+
 Note: You can also download from https://www.linkedin.com/directory/people-a
 I will suggest to use some chrome plugin (example: link klipper) which will help to download all link and text from page.
 
