@@ -4,6 +4,18 @@
 
 ## Sources
 1) Google Big Query Open Dataset [https://cloud.google.com/bigquery/public-data/](https://cloud.google.com/bigquery/public-data/)
+   > SELECT name,gender FROM `bigquery-public-data.usa_names.usa_1910_current`
+
+   > SELECT author.name as author_name, author.email as author_email, committer.name as committer_name, committer.email as committer_email, repo_name FROM bigquery-public-data.github_repos.commits
+
+   > SELECT * FROM `fh-bigquery.popular_names.usa_summary_1880_2015`
+
+   > SELECT first_name,display_name,age,gender FROM `fh-bigquery.popular_names.stackoverflow_guesses` 
+   
+   > SELECT * FROM `fh-bigquery.popular_names.gender_probabilities`
+
+   > SELECT * FROM `fh-bigquery.freebase20140119.people_names`
+
 2) Crawled some website which provide users dataset
 
 3) There are billions of people name we can get from common crawl. Those names are accurate becuase it's extratced from RDF.
